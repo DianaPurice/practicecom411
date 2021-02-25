@@ -1,1 +1,2 @@
-# display message to the standard output print("System Failure Imminent!")
+#display message to the output
+print("System Failure Imminent")
