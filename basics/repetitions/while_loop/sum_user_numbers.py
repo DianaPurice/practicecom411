@@ -4,7 +4,7 @@ number_to_sum = int(input())
 
 # declare a control variable
 summed = 1
-
+print()
 # diplay blank line
 
 # sum numbers
@@ -17,4 +17,4 @@ while (summed <= number_to_sum):
   summed = summed +1
 
 # display result
-print("\nThe answer is {}".format(total))
+print("\nThe answer is {}.".format(total))
