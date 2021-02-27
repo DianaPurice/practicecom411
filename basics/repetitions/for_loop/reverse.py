@@ -8,3 +8,4 @@ print("Reversing...\n\nThe phrase is: ", end="")
 # displaying result
 for p in range(len(phrase) -1, -1, -1):
   print(phrase[p], end="")
+  
