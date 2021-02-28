@@ -1,3 +1,4 @@
+
 import basics.output.simple_message as simple_message
 import basics.output.multiline_message as multiline_message
 import basics.output.escape_characters.py as escape_characters
@@ -28,7 +29,7 @@ import basics.functions.function_calls.py as func_calls
 import basics.functions.multiple_function.py as multi_func
 import basics.functions.return_values.py as rtn_val
 import basics.functions.simple_function.py as smpl_func
-
+import basics.decisions.simple_decision.py as if_
 
 
 
@@ -60,8 +61,8 @@ def run_block_a():
         counter.run()
     elif (response == "if_elif_else"):
         if_elif_else.run()
-    elif (response == "if_py"):
-        if_py.run()
+    elif (response == "if_"):
+        if_.run()
     elif (response == "modulo_operator"):
         modulo_operator.run()
     elif (response == "nestception"):
@@ -96,11 +97,13 @@ def run_block_a():
         rtn_val.run()
     elif (response == "smpl_func"):
         smpl_func.run()
+    elif (response == "if_else"):
+        if_else.run()
 
 
 
 def run():
-    is_running = True
+    response = 0
 
     while (is_running):
         print("What would you like to do?")

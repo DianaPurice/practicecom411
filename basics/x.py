@@ -29,3 +29,7 @@ def run():
 
 
 run()
+
+
+
+import basics.output.simple_message as simple_message
