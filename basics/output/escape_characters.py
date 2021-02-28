@@ -6,10 +6,3 @@ print("\" displays a double quote")
 print("\' displays a single quote'")
 print()
 print("\n\t\"I am Beep!\"")
-
-
-
-
-
-
-
